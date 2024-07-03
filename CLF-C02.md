@@ -17,3 +17,19 @@ CPU, RAM, Data, Network(Routers, Switch, DNS server)
 
 - [Chat](https://chatgpt.com/share/8e727e30-a768-4961-9154-a9183bc31ede)
 - [Modem vs Router](https://www.youtube.com/watch?v=Mad4kQ5835Y)
+
+## What is Cloud Computing
+
+提供一種按需求獲取的計算資源、儲存空間、應用程式等IT資源，自選適當的規格、數量，並付對應的價錢
+
+當使用者要操作Web Application時，AWS會提供對應網路連接所需的硬體
+
+Dropbox(儲存空間)、Netflix(影片服務)皆算是日常生活中可見的雲端服務
+
+## 雲端有哪幾種部屬模型
+
+Private Cloud: 私有雲，運作環境是專屬於一個組織或企業私人使用的 e.g. racksapce
+
+Public Cloud: 公有雲，將計算資源公開給多租戶使用 e.g. AWS, GCP, Azure
+
+Hybrid Cloud: 混合雲，保留一些地端的Server，但也採用公有雲的服務，同時維護Infra來保存敏感資產、但也不失雲端的靈活性
