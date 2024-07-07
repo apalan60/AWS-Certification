@@ -73,3 +73,13 @@ is composed of one or more discrete data centers with redundant power, networkin
 | **管理**       | 通過一個中央點管理，方便全球操作和監控。 | 需要在每個Region分別進行管理和配置。 |
 | **範例服務**   | IAM, Route 53, CloudFront | EC2, RDS, VPC |
 | **主要優勢**   | 管理簡化，全球統一的策略和設置。 | 促進地理隔離，增強災難恢復能力，符合地域法規。 |
+
+## IAM
+
+創建的帳號為root account，底下可以配置許多Users，依據User類型可以再把他們分配至Group
+
+透過一份json定義這些Group或User分別有什麼權限
+
+User可以分配至多個Group，並繼承該Group所擁有的權限
+
+可以在Dashboard客製化帳戶ID別名
